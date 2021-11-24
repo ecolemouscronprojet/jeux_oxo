@@ -15,3 +15,14 @@ A l'aide de Symfony 5, nous allons créer un jeu OXO, voici le mini cahier des c
 
 - [1. CREATION DU MLD](doc/mld.md)
 - …
+
+
+# Cours
+
+- [les utilisateurs et ssh](doc/users.md)
+
+
+
+
+
+https://www.hanselman.com/blog/how-to-ssh-into-wsl2-on-windows-10-from-an-external-machine
