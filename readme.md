@@ -10,6 +10,11 @@ A l'aide de Symfony 5, nous allons créer un jeu OXO, voici le mini cahier des c
 - Chaque utilisateur pourra consulter son historique de parties
 
 
+## Videos jeu OXO
+- [Initialisation](https://www.youtube.com/watch?v=BMYhICaOd9U)
+- [BDD](https://www.youtube.com/watch?v=_Rl_rHmZOjQ)
+
+
 
 ## LES ETAPES
 
