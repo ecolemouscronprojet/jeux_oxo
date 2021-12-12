@@ -13,6 +13,7 @@ A l'aide de Symfony 5, nous allons créer un jeu OXO, voici le mini cahier des c
 ## Videos jeu OXO
 - [Initialisation](https://www.youtube.com/watch?v=BMYhICaOd9U)
 - [BDD](https://www.youtube.com/watch?v=_Rl_rHmZOjQ)
+- [Page d'inscription](https://www.youtube.com/watch?v=XDu8KS4tvF4)
 
 
 
