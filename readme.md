@@ -24,10 +24,27 @@ A l'aide de Symfony 5, nous allons créer un jeu OXO, voici le mini cahier des c
 
 
 # Cours
+<!--
+- [Les commandes de base](doc/basic_commands.md)
+
+- ou sont sotkcer les commandes
+
+
+- [Utilisation de VIM](doc/users.md)
+
+- [Gestion des utilisateurs et groupe](doc/users.md)
+
+- [Installation d'un serveur nginx](doc/users.md)
+
+- [Installation de MySQL](doc/users.md)
+
+- [Taches CRON](doc/users.md)
+
+- [Taches CRON](doc/users.md)
 
 - [les utilisateurs et ssh](doc/users.md)
 
-
+-->
 
 
 
