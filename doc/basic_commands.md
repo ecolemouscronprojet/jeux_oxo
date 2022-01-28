@@ -251,14 +251,14 @@ DESCRIPTION
 
 
 
-Voici deux exemples où l'on utilise une commande associé à un paramètre
+Voici deux exemples où l'on utilise une commande associé à un/des paramètre(s)
 
 ### Exemple 1
 
-Je souhaite supprimer un repertoire non vide, je vais devoir utiliser l'option -r pour supprimer l'ensemble des données en mode recursive, si vous ne passez pas cette option, vous ne pourrez pas supprimer un repertoire non vide
+Je souhaite supprimer un repertoire avec la commande `rm`, je vais devoir utiliser l'option -r pour supprimer l'ensemble des données en mode recursive (même si le répertoire est vide)
 
 ```shell
-rm -r monDossier
+ubuntu@ecole:~$ rm -r monDossier
 
 ```
 
@@ -268,12 +268,19 @@ rm -r monDossier
 Ici je supprime le repertoire et s'il n'existe pas j'utilise le paramètre f pour ne pas m'afficher le retour d'erreur
 
 ```shell
-rm -rf monDossier
+ubuntu@ecole:~$ rm -rf monDossier
 ```
 
 
 
 ### Exemple 2
+
+Je souhaite lister un repertoire où les données sont triées par ordre de modification, l'option `t` pour trier par ordre de modification et l'option `l` pour donner plus d'information sur le fichier(donne également un affichage plus clair)
+
+```shell
+ubuntu@ecole:~$ ls -lt
+```
+
 
 
 
