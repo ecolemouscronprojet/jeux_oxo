@@ -262,10 +262,10 @@ rm -r monDossier
 
 ```
 
-:information_desk_person: vous avez la possibilité de passer plus d'une option à un paramètre 
+:information_desk_person: vous avez la possibilité de passer plus d'une option à une commande 
 
 
-Ici je supprime le repertoire et s'il n'existe pas je ne vais pas récupérer en sortie le message d'erreur
+Ici je supprime le repertoire et s'il n'existe pas j'utilise le paramètre f pour ne pas m'afficher le retour d'erreur
 
 ```shell
 rm -rf monDossier
