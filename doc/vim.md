@@ -12,8 +12,11 @@ Pour ouvrir un fichier avec Vim rien de plus simple utilisez la commande `vim` s
 
 ```shell
 vim monFichier
-
 ```
+
+![Create file VIM](images/vim_1.png)
+
+La quand vous êtes dnas l
 
 
 
