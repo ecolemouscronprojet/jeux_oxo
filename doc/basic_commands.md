@@ -32,7 +32,7 @@ drwxr-xr-x  2 root root   4096 Jan 22 06:25 backups
 drwxr-xr-x 15 root root   4096 Jan  5 22:36 cache
 drwxrwxrwt  2 root root   4096 Jan  4 06:25 crash
 drwxr-xr-x 47 root root   4096 Dec 26 16:54 lib
-drwxrwsr-x  2 root staff  4096 Oct 11 08:39 local
+drwxrwsr-x  2 root ecole  4096 Oct 11 08:39 local
 lrwxrwxrwx  1 root root      9 Oct 14 11:59 lock -> /run/lock
 drwxrwxr-x 12 root syslog 4096 Jan 23 00:00 log
 drwxrwsr-x  2 root mail   4096 Oct 14 11:59 mail
@@ -59,7 +59,7 @@ total 0
 ubuntu@ecole:~$ mkdir folder
 ubuntu@ecole:~$ ls -l
 total 0
-drwxr-xr-x  2 lassoya  staff  64 Jan 28 08:55 folder
+drwxr-xr-x  2 ecole  ecole  64 Jan 28 08:55 folder
 ```
 
 - `whoami` (**who am i**) : donne le nom de l'utilisateur courant
@@ -80,7 +80,23 @@ ubuntu
 
 - `touch`: permet de créer un fichier, mais également de modifier le **timestamp** d'un fichier
 
+
+```shell
+    ubuntu@ecole:~$ touch message
+    ubuntu@ecole:~$ ls -l
+    -rw-r--r--  1 ecole  ecole  0 Jan 28 09:10 message
+```
+
 - `cat` : permet de lire le contenu d'un fichier et de le renvoyer en sortie
+
+```shell
+    ubuntu@ecole:~$ cat message
+    Hello
+    Comment
+    Allez
+    Vous
+    ?
+```
 
 - `less` : permet de lire le contenu d'un fichier page par page.
 
