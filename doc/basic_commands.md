@@ -211,11 +211,46 @@ ubuntu@ecole:~$
 
 # les options sur les commandes
 
-Dans la plupart des cas, les commandes ne s'utilisent pas seule, 
+Comme vous avez pu le constater dans les exemples ci-dessus, les commandes sont souvents associés à des options, vous pouvez voir l'ensemble des options disponibles pour une commande grace à la commande `man`
 
-### Exemples
+```shell
+ubuntu@ecole:~$ man ls
 
-#### Exemple 1
+LS(1)                                     General Commands Manual                                    LS(1)
+
+NAME
+     ls – list directory contents
+
+SYNOPSIS
+     ls [-@ABCFGHILOPRSTUWabcdefghiklmnopqrstuvwxy1%,] [--color=when] [-D format] [file ...]
+
+DESCRIPTION
+    …
+
+     -@      Display extended attribute keys and sizes in long (-l) output.
+
+     -A      Include directory entries whose names begin with a dot (‘.’) except for . and ...
+             Automatically set for the super-user unless -I is specified.
+
+     -B      Force printing of non-printable characters (as defined by ctype(3) and current locale
+             settings) in file names as \xxx, where xxx is the numeric value of the character in octal.
+             This option is not defined in IEEE Std 1003.1-2008 (“POSIX.1”).
+
+     -C      Force multi-column output; this is the default when output is to a terminal.
+
+     -D format
+             When printing in the long (-l) format, use format to format the date and time output.  The
+             argument format is a string used by strftime(3).  Depending on the choice of format string,
+             this may result in a different number of columns in the output.  This option overrides the -T
+             option.  This option is not defined in IEEE Std 1003.1-2008 (“POSIX.1”).
+
+```
+
+
+
+Voici deux exemples où l'on utilise une commande associé à un paramètre
+
+### Exemple 1
 
 Je souhaite supprimer un repertoire non vide, je vais devoir utiliser l'option -r pour supprimer l'ensemble des données en mode recursive, si vous ne passez pas cette option, vous ne pourrez pas supprimer un repertoire vide
 
@@ -224,7 +259,15 @@ rm -r monDossier
 
 ```
 
-#### Exemple 2
+:information_desk_person: vous avez la possibilité de passer plus d'une option à un paramètre 
+
+```shell
+rm -rf monDossier
+```
+Ici je supprime le repertoire et s'il n'existe pas je ne vais pas récupérer en sortie le message d'erreur
+
+
+### Exemple 1
 
 
 
