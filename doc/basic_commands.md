@@ -1,6 +1,6 @@
 # Commandes de base
 
-Ici, nous allons voir quelques commandes qui vont nous permettre de bien démarrer dans un environnement linux
+Ici, nous allons voir quelques commandes de bases indispensable à connaitre pour bien démarrer sur un environnement linux
 
 
 
