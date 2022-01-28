@@ -16,7 +16,6 @@ A l'aide de Symfony 5, nous allons créer un jeu OXO, voici le mini cahier des c
 - [Page d'inscription](https://www.youtube.com/watch?v=XDu8KS4tvF4)
 
 
-
 ## LES ETAPES
 
 - [1. CREATION DU MLD](doc/mld.md)
@@ -24,10 +23,24 @@ A l'aide de Symfony 5, nous allons créer un jeu OXO, voici le mini cahier des c
 
 
 # Cours
-<!--
+
 - [Les commandes de base](doc/basic_commands.md)
 
+- [Editeur VIM](doc/vim.md)
+
+<!--
+
+- [Installation de package]()
+
+- [Installation de NGINX et configuration]()
+
+- commande vim
+
+
+
 - ou sont sotkcer les commandes
+
+- Différents shells
 
 
 - [Utilisation de VIM](doc/users.md)

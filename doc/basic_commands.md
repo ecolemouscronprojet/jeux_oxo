@@ -1,5 +1,13 @@
 # Commandes de base
 
+
+## commandes
+
+
+Voici une liste de commande de base à connaitre dans les systèmes linux
+<br>
+<br>
+
 - `cd` (**change directory**) : permet de naviguer entre les différents répertoires
 ```shell
     cd .. # va dans le repertoire parent
@@ -38,12 +46,53 @@ drwxr-xr-x  4 root root   4096 Dec 26 16:27 www
 
 ```
 
-- man (**manual**) : affiche le manuel d'utilisation d'une commande
+- `man` (**manual**) : affiche le manuel d'utilisation d'une commande
 
 ```shell
  man ls
  man cd
 ```
+
+- `mkdir` (**make directories**) : permet de créer un repertoire
+
+
+- `whoami` (**who am i**) : donne le nom de l'utilisateur courant
+
+-`clear`: permet de vider l'écran du terminal
+
+- `rmdir` (**remove directory**): permet de supprimer un repertoire s'il est vide
+
+- `rm` (**remove**): permet de supprimer des fichiers ou repertoires
+
+- `mv` (**move**): permet de déplacer ou renommer un fichier/repertoire
+
+- `cp` (**copy**): permet de copier un fichier/repertoire
+
+- `cat` : 
+
+- `head` : permet d'imprimer à l'écran les 10 premières lignes (par défaut) d'un fichiers ou d'une sortie standard
+
+
+# les options sur les commandes
+
+Dans la plupart des cas, les commandes ne s'utilisent pas seule, 
+
+### Exemples
+
+#### Exemple 1
+
+Je souhaite supprimer un repertoire non vide, je vais devoir utiliser l'option -r pour supprimer l'ensemble des données en mode recursive, si vous ne passez pas cette option, vous ne pourrez pas supprimer un repertoire vide
+
+```shell
+rm -r monDossier
+
+```
+
+#### Exemple 2
+
+
+
+
 
 
 
