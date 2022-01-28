@@ -80,7 +80,7 @@ ubuntu
     total 0
 ```
 
-- `rm` (**remove**): permet de supprimer des fichiers ou repertoires
+- `rm` (**remove**): Supprime des fichiers ou repertoires
 ```shell
     ubuntu@ecole:~$ ls -l
     drwxr-xr-x  2 ecole  ecole  64 Jan 28 08:55 folder
@@ -89,7 +89,7 @@ ubuntu
     total 0
 ```
 
-- `mv` (**move**): permet de déplacer ou renommer un fichier/repertoire
+- `mv` (**move**): Déplace ou renomme un fichier ou repertoire
 
 ```shell
     ubuntu@ecole:~$ ls -l
@@ -100,7 +100,7 @@ ubuntu
     drwxr-xr-x  2 ecole  ecole  64 Jan 28 08:55 folder_move
 ```
 
-- `cp` (**copy**): permet de copier un fichier/repertoire
+- `cp` (**copy**): Copie un fichier ou repertoire
 
 ```shell
     ubuntu@ecole:~$ ls -l
