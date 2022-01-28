@@ -275,7 +275,9 @@ ubuntu@ecole:~$ rm -rf monDossier
 
 ### Exemple 2
 
-Je souhaite lister un repertoire où les données sont triées par ordre de modification, l'option `t` pour trier par ordre de modification et l'option `l` pour donner plus d'information sur le fichier(donne également un affichage plus clair)
+Je souhaite lister un repertoire où les données sont triées par ordre de modification
+-  `t` pour trier par ordre de modification
+- `l` pour donner plus d'informations sur les fichiers (donne également un affichage plus clair)
 
 ```shell
 ubuntu@ecole:~$ ls -lt
