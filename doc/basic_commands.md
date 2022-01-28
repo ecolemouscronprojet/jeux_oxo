@@ -211,7 +211,7 @@ ubuntu@ecole:~$
 
 # les options sur les commandes
 
-Comme vous avez pu le constater dans les exemples ci-dessus, les commandes sont souvents associées à des options, vous pouvez voir l'ensemble des options disponibles en utilisant la commande `man`
+Comme vous avez pu le constater dans les exemples ci-dessus, les commandes sont souvents associées à des options, vous pouvez voir l'ensemble des options disponibles pour une commande en utilisant la commande `man`
 
 ```shell
 ubuntu@ecole:~$ man ls
