@@ -255,7 +255,7 @@ Voici deux exemples où l'on utilise une commande associé à un paramètre
 
 ### Exemple 1
 
-Je souhaite supprimer un repertoire non vide, je vais devoir utiliser l'option -r pour supprimer l'ensemble des données en mode recursive, si vous ne passez pas cette option, vous ne pourrez pas supprimer un repertoire vide
+Je souhaite supprimer un repertoire non vide, je vais devoir utiliser l'option -r pour supprimer l'ensemble des données en mode recursive, si vous ne passez pas cette option, vous ne pourrez pas supprimer un repertoire non vide
 
 ```shell
 rm -r monDossier
@@ -264,13 +264,16 @@ rm -r monDossier
 
 :information_desk_person: vous avez la possibilité de passer plus d'une option à un paramètre 
 
+
+Ici je supprime le repertoire et s'il n'existe pas je ne vais pas récupérer en sortie le message d'erreur
+
 ```shell
 rm -rf monDossier
 ```
-Ici je supprime le repertoire et s'il n'existe pas je ne vais pas récupérer en sortie le message d'erreur
 
 
-### Exemple 1
+
+### Exemple 2
 
 
 
