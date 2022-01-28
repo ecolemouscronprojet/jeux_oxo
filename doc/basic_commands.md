@@ -72,9 +72,33 @@ ubuntu
 
 - `rmdir` (**remove directory**): permet de supprimer un repertoire s'il est vide
 
+```shell
+    ubuntu@ecole:~$ ls -l
+    drwxr-xr-x  2 ecole  ecole  64 Jan 28 08:55 folder
+    ubuntu@ecole:~$ rm -R folder
+    ubuntu@ecole:~$ ls -l
+    total 0
+```
+
 - `rm` (**remove**): permet de supprimer des fichiers ou repertoires
+```shell
+    ubuntu@ecole:~$ ls -l
+    drwxr-xr-x  2 ecole  ecole  64 Jan 28 08:55 folder
+    ubuntu@ecole:~$ rm -R folder
+    ubuntu@ecole:~$ ls -l
+    total 0
+```
 
 - `mv` (**move**): permet de déplacer ou renommer un fichier/repertoire
+
+```shell
+    ubuntu@ecole:~$ ls -l
+    drwxr-xr-x  2 ecole  ecole  64 Jan 28 08:55 folder
+    ubuntu@ecole:~$ mv folder folder_move
+    ubuntu@ecole:~$ ls -l
+    total 0
+    drwxr-xr-x  2 ecole  ecole  64 Jan 28 08:55 folder_move
+```
 
 - `cp` (**copy**): permet de copier un fichier/repertoire
 
@@ -84,10 +108,9 @@ ubuntu
     drwxr-xr-x  2 ecole  ecole  64 Jan 28 08:55 folder
     ubuntu@ecole:~$ cp -r folder copy_folder
     total 0
-    drwxr-xr-x  2 lassoya  staff  64 Jan 28 09:15 copy_folder
-    drwxr-xr-x  2 lassoya  staff  64 Jan 28 08:55 folder
+    drwxr-xr-x  2 ecole  ecole  64 Jan 28 09:15 copy_folder
+    drwxr-xr-x  2 ecole  ecole  64 Jan 28 08:55 folder
 ```
-
 
 - `touch`: permet de créer un fichier, mais également de modifier le **timestamp** d'un fichier
 
