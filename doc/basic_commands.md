@@ -265,7 +265,7 @@ ubuntu@ecole:~$ rm -r monDossier
 :information_desk_person: vous avez la possibilité de passer plus d'une option à une commande 
 
 
-Ici je supprime le repertoire et s'il n'existe pas j'utilise le paramètre f pour ne pas m'afficher le retour d'erreur
+Ici je supprime le repertoire et s'il n'existe pas j'utilise le paramètre `f` pour ne pas m'afficher le retour d'erreur
 
 ```shell
 ubuntu@ecole:~$ rm -rf monDossier
