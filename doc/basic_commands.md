@@ -131,7 +131,7 @@ ubuntu
     ?
 ```
 
-- `less` : permet de lire le contenu d'un fichier page par page.
+- `less` : permet de lire le contenu d'un fichier en mode page à page ( pour naviguer vers la page suivante utiliser la touche **f** et pour la précédente **b**)
 
 - `head` : permet d'imprimer à l'écran par défaut les 10 premières lignes d'un fichier ou d'une sortie standard
 ```shell
