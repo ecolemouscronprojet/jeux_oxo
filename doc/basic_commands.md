@@ -84,7 +84,21 @@ ubuntu
 
 - `less` : permet de lire le contenu d'un fichier page par page.
 
-- `head` : permet d'imprimer à l'écran les 10 premières lignes (par défaut) d'un fichiers ou d'une sortie standard
+- `head` : permet d'imprimer à l'écran par défaut les 10 premières lignes d'un fichier ou d'une sortie standard
+```shell
+ubuntu@ecole:~$ head auth.log
+Jan 23 00:02:01 ecole sshd[563664]: Invalid user emilie from 103.253.146.82 port 43590
+Jan 23 00:02:02 ecole sshd[563664]: Connection closed by invalid user emilie 103.253.146.82 port 43590 [preauth]
+Jan 23 00:02:24 ecole sshd[563666]: Invalid user ftpuser from 106.13.31.93 port 33478
+Jan 23 00:02:24 ecole sshd[563666]: Received disconnect from 106.13.31.93 port 33478:11: Bye Bye [preauth]
+Jan 23 00:02:24 ecole sshd[563666]: Disconnected from invalid user ftpuser 106.13.31.93 port 33478 [preauth]
+Jan 23 00:03:00 ecole sshd[563670]: Invalid user emilie from 103.253.146.82 port 44164
+Jan 23 00:03:01 ecole sshd[563670]: Connection closed by invalid user emilie 103.253.146.82 port 44164 [preauth]
+Jan 23 00:04:01 ecole sshd[563672]: Invalid user emilie from 103.253.146.82 port 44744
+Jan 23 00:04:01 ecole sshd[563672]: Connection closed by invalid user emilie 103.253.146.82 port 44744 [preauth]
+Jan 23 00:07:28 ecole sshd[563678]: Invalid user emilie from 103.253.146.82 port 46848
+```
+
 
 - `history` : permet de récupérer l'historique des commandes tapées précédemment
 
