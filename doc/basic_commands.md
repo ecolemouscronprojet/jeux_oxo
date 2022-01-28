@@ -19,7 +19,7 @@ Ici, nous allons voir quelques commandes de bases à connaitre pour bien démarr
 - `pwd` (**print work directory**): permet d'imprimer à l'écran le chemin du repertoire dans lequel on se situe
 
 ```shell
-pwd
+ubuntu@ecole:~$ pwd
 /home/ecole
 
 ```
@@ -27,7 +27,7 @@ pwd
 - `ls` : permet de lister le contenu d'un repertoire
 
 ```
-ls -l
+ubuntu@ecole:~$ ls -l
 drwxr-xr-x  2 root root   4096 Jan 22 06:25 backups
 drwxr-xr-x 15 root root   4096 Jan  5 22:36 cache
 drwxrwxrwt  2 root root   4096 Jan  4 06:25 crash
@@ -48,11 +48,19 @@ drwxr-xr-x  4 root root   4096 Dec 26 16:27 www
 - `man` (**manual**) : affiche le manuel d'utilisation d'une commande
 
 ```shell
- man ls
- man cd
+ ubuntu@ecole:~$ man ls
+ ubuntu@ecole:~$ man cd
 ```
 
 - `mkdir` (**make directories**) : permet de créer un repertoire
+```shell
+ubuntu@ecole:~$ ls -l
+total 0
+ubuntu@ecole:~$ mkdir folder
+ubuntu@ecole:~$ ls -l
+total 0
+drwxr-xr-x  2 lassoya  staff  64 Jan 28 08:55 folder
+```
 
 - `whoami` (**who am i**) : donne le nom de l'utilisateur courant
 
