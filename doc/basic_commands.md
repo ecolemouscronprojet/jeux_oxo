@@ -1,10 +1,13 @@
 # Commandes de base
 
+Ici, nous allons voir quelques commandes qui vont nous permettre de bien démarrer dans un environnement linux
 
-## commandes
 
 
-Voici une liste de commande de base à connaitre dans les systèmes linux
+## Les commandes
+
+
+Voici une liste de commande de base à connaitre 
 <br>
 <br>
 
@@ -55,7 +58,6 @@ drwxr-xr-x  4 root root   4096 Dec 26 16:27 www
 
 - `mkdir` (**make directories**) : permet de créer un repertoire
 
-
 - `whoami` (**who am i**) : donne le nom de l'utilisateur courant
 
 -`clear`: permet de vider l'écran du terminal
@@ -68,9 +70,25 @@ drwxr-xr-x  4 root root   4096 Dec 26 16:27 www
 
 - `cp` (**copy**): permet de copier un fichier/repertoire
 
-- `cat` : 
+- `touch`: permet de créer un fichier, mais également de modifier le **timestamp** d'un fichier
+
+- `cat` : permet de lire le contenu d'un fichier et de le renvoyer en sortie
+
+- `less` : permet de lire le contenu d'un fichier page par page.
 
 - `head` : permet d'imprimer à l'écran les 10 premières lignes (par défaut) d'un fichiers ou d'une sortie standard
+
+- `history` : permet de récupérer l'historique des commandes tapées précédemment
+
+- `echo`: permet d'afficher le contenu des données passée en argument, exemple: variables, chaîne de caractères …
+```shell
+    echo 'Hello World'
+    Hello World
+```
+
+- `date` : permet de récupérer la date du serveur
+
+- `wc`(**word count**): permet de compter le nombre de lignes, de mots ou de caractère dans un fichier
 
 
 # les options sur les commandes

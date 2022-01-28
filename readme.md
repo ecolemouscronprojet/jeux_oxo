@@ -36,6 +36,10 @@ A l'aide de Symfony 5, nous allons créer un jeu OXO, voici le mini cahier des c
 
 - commande vim
 
+pipe récupérer les sorties
+
+
+BASH LES VARIABLES
 
 
 - ou sont sotkcer les commandes
