@@ -181,13 +181,13 @@ ubuntu@ecole:~$
 
 ```
 
-- `echo`: permet d'afficher le contenu des données passée en argument, exemple: variables, chaîne de caractères …
+- `echo`: Affiche le contenu des données passée en argument, exemple: variables, chaîne de caractères …
 ```shell
     ubuntu@ecole:~$ $echo 'Hello World'
     Hello World
 ```
 
-- `date` : permet de récupérer la date du serveur
+- `date` : Affiche la date du serveur
 
 ```shell
     ubuntu@ecole:~$ date
@@ -195,7 +195,7 @@ ubuntu@ecole:~$
 ```
 
 
-- `wc` (**word count**): permet de compter le nombre de lignes, de mots ou de caractère dans un fichier
+- `wc` (**word count**): Compter le nombre de lignes, de mots ou de caractères dans un fichier
 
 ```shell
     ubuntu@ecole:~$ wc message
