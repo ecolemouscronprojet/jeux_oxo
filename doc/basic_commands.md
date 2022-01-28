@@ -68,14 +68,14 @@ ubuntu@ecole:~$ whoami
 ubuntu
 ```
 
-- `clear`: permet de vider l'écran du terminal
+- `clear`: vide l'écran du terminal
 
-- `rmdir` (**remove directory**): permet de supprimer un repertoire s'il est vide
+- `rmdir` (**remove directory**): Supprime un repertoire s'il est vide
 
 ```shell
     ubuntu@ecole:~$ ls -l
     drwxr-xr-x  2 ecole  ecole  64 Jan 28 08:55 folder
-    ubuntu@ecole:~$ rm -R folder
+    ubuntu@ecole:~$ rmdir folder
     ubuntu@ecole:~$ ls -l
     total 0
 ```
