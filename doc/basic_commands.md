@@ -1,15 +1,11 @@
 # Commandes de base
 
-Ici, nous allons voir quelques commandes de bases indispensable à connaitre pour bien démarrer sur un environnement linux
+Ici, nous allons voir quelques commandes de bases indispensables à connaitre pour bien démarrer sur un environnement linux
 
 
 
 ## Les commandes
 
-
-Voici une liste de commande de base à connaitre 
-<br>
-<br>
 
 - `cd` (**change directory**) : permet de naviguer entre les différents répertoires
 ```shell
