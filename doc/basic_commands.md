@@ -251,7 +251,7 @@ DESCRIPTION
 
 
 
-Voici deux exemples où l'on utilise une commande associé à un/des paramètre(s)
+Voici deux exemples où l'on utilise une commande associée à un/des paramètre(s)
 
 ### Exemple 1
 
