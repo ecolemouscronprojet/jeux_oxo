@@ -16,7 +16,7 @@ Ici, nous allons voir quelques commandes de bases à connaitre pour bien démarr
     ubuntu@ecole:~$ cd # va également dans le repertoire courant de l'utilisateur
 ```
 
-- `pwd` (**print work directory**): permet d'imprimer à l'écran le chemin du repertoire dans lequel on se situe
+- `pwd` (**print work directory**): imprime à l'écran le chemin du repertoire dans lequel on se situe
 
 ```shell
 ubuntu@ecole:~$ pwd
@@ -24,7 +24,7 @@ ubuntu@ecole:~$ pwd
 
 ```
 
-- `ls` : permet de lister le contenu d'un repertoire
+- `ls` : liste le contenu d'un repertoire
 
 ```
 ubuntu@ecole:~$ ls -l
