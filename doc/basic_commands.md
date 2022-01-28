@@ -63,6 +63,10 @@ drwxr-xr-x  2 lassoya  staff  64 Jan 28 08:55 folder
 ```
 
 - `whoami` (**who am i**) : donne le nom de l'utilisateur courant
+```shell
+ubuntu@ecole:~$ whoami
+ubuntu
+```
 
 -`clear`: permet de vider l'écran du terminal
 
