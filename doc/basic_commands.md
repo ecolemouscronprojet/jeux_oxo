@@ -68,7 +68,7 @@ ubuntu@ecole:~$ whoami
 ubuntu
 ```
 
--`clear`: permet de vider l'écran du terminal
+- `clear`: permet de vider l'écran du terminal
 
 - `rmdir` (**remove directory**): permet de supprimer un repertoire s'il est vide
 
@@ -134,13 +134,30 @@ ubuntu@ecole:~$
 
 - `echo`: permet d'afficher le contenu des données passée en argument, exemple: variables, chaîne de caractères …
 ```shell
-    echo 'Hello World'
+    ubuntu@ecole:~$ $echo 'Hello World'
     Hello World
 ```
 
 - `date` : permet de récupérer la date du serveur
 
-- `wc`(**word count**): permet de compter le nombre de lignes, de mots ou de caractère dans un fichier
+```shell
+    ubuntu@ecole:~$ date
+    Fri Jan 28 08:04:50 UTC 2022
+```
+
+
+- `wc` (**word count**): permet de compter le nombre de lignes, de mots ou de caractère dans un fichier
+
+```shell
+    ubuntu@ecole:~$ wc message
+           5       5      27 message
+    ubuntu@ecole:~$ cat message
+    Hello
+    Comment
+    Allez
+    Vous
+    ?
+```
 
 
 # les options sur les commandes
