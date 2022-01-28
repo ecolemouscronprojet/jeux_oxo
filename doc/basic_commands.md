@@ -1,6 +1,6 @@
 # Commandes de base
 
-Ici, nous allons voir quelques commandes de bases indispensables à connaitre pour bien démarrer sur un environnement linux
+Ici, nous allons voir quelques commandes de bases à connaitre pour bien démarrer sur un environnement linux
 
 
 
@@ -9,11 +9,11 @@ Ici, nous allons voir quelques commandes de bases indispensables à connaitre po
 
 - `cd` (**change directory**) : permet de naviguer entre les différents répertoires
 ```shell
-    cd .. # va dans le repertoire parent
-    cd monDossier # va dans le repertoire monDossier
-    cd / # va à la racine du serveur
-    cd ~ # va dans le repertoire courant de l'utilisateur
-    cd # va également dans le repertoire courant de l'utilisateur
+    ubuntu@ecole:~$ cd .. # va dans le repertoire parent
+    ubuntu@ecole:~$ cd monDossier # va dans le repertoire monDossier
+    ubuntu@ecole:~$ cd / # va à la racine du serveur
+    ubuntu@ecole:~$ cd ~ # va dans le repertoire courant de l'utilisateur
+    ubuntu@ecole:~$ cd # va également dans le repertoire courant de l'utilisateur
 ```
 
 - `pwd` (**print work directory**): permet d'imprimer à l'écran le chemin du repertoire dans lequel on se situe
@@ -75,6 +75,36 @@ drwxr-xr-x  4 root root   4096 Dec 26 16:27 www
 - `head` : permet d'imprimer à l'écran les 10 premières lignes (par défaut) d'un fichiers ou d'une sortie standard
 
 - `history` : permet de récupérer l'historique des commandes tapées précédemment
+
+```shell
+ubuntu@ecole:~$ history
+  ……
+  126  ls- l
+  127  sudo su
+  128  cd /home/
+  129  ls
+  130  cd /var/www/
+  131  ls
+  132  cd moodle/
+  133  ls
+  134  cd export_database/
+  135  ls -lt
+  136  date
+  137  ls -lt
+  138  sudo su
+  139  ls -l
+  140  cd /home/
+  141  cd /var/www/
+  142  ls
+  143  cd moodle/
+  144  ls
+  145  cd export_database/
+  146  ls
+  147  history
+ubuntu@ecole:~$ 
+
+
+```
 
 - `echo`: permet d'afficher le contenu des données passée en argument, exemple: variables, chaîne de caractères …
 ```shell
