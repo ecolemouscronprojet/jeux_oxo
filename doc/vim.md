@@ -20,15 +20,31 @@ ubuntu@ecole:~$  vim monFichier
 :information_desk_person: Si le fichier que vous souhaitez éditer n'existe pas, **Vim** va ouvrir un fichier vide et l'enregistrera sur le disque au moment de la sauvegarde
 
 
+![Open file](images/vim_1.png)
+
+1. Indique le nom du fichier que l'on souhaite éditer
+2. Indique que nous sommes en mode lecture sur le fichier, on ne peut pas l'éditer dans l'état
+3. Indique la position de notre curseur
+
+## Effectuer des actions dans Vim
+
+En utilisant un éditeur de texte, vous allez être amené à effectuer différentes actions: quitter, sauvegarder, rechercher …
+
+Pour indiquer à Vim que vous souhaitez effectuer une action, vous allez devoir utiliser le **double point** (:)
 
 
+![Open file](images/vim_2.png)
+
+Lorsque vous cliquez sur les doubles points, ils apparaissent en bas à gauche de l'écran, il ne reste plus qu'a préciser l'action que vous souhaitez éffectuer
 
 
+## Les différentes façon de quitter un fichier
 
+Quand on a  modifié le fichier on peut quitter le fichier de deux façons différentes
 
-![Edit File](images/vim_1.png)
+### Quitter le fichier en enregistrant les modification
 
-La quand vous êtes dnas l
+`:x` ou ``
 
 
 ## mode insertion
@@ -65,7 +81,7 @@ supprimer un mot
 
 
 
-
+## faire une rechercher et remplacer
 
 
 
