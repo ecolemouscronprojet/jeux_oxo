@@ -17,7 +17,7 @@ Pour ouvrir un fichier avec Vim rien de plus simple utilisez la commande `vim` s
 ubuntu@ecole:~$  vim monFichier
 ```
 
-:information_desk_person: Si le fichier que vous souhaitez éditer n'existe pas, **Vim** va créer un fichier vide et il s'enregistrera sur votre machine quand vous allez le sauvegarder
+:information_desk_person: Si le fichier que vous souhaitez éditer n'existe pas, **Vim** va ouvrir un fichier vide et l'enregistrera sur le disque au moment de la sauvegarde
 
 
 
