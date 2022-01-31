@@ -63,14 +63,24 @@ Il faut savoir que par défaut quand vous ouvez un fichier avec `vim` il est en 
 
 ![Mode insertion](images/vim_3.png)
 
-## navigation
+## Navigation
 
-Pour naviguer dans l'éditeur de texte vous avez deux possibilités
+Pour naviguer dans votre fichier vous avez deux posibilités
 
-Soitla premières sont d'utiliser les touches directionnelles du clavier
+Soit, utilisez les fleches directionnelles
+
+![fleches directionnelles](images/vim_fleches.png)
 
 
+Soit, utilisez les touches **H J K L**
 
+
+![touches H J K L](images/vim_touches_hjkl.png)
+
+- **H** : navigue à gauche
+- **J** : navigue vers le bas
+- **K** : navigue vers le haut
+- **L** : navigue à droite
 
 ## rechercher
 
