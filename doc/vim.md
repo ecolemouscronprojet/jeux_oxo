@@ -1,6 +1,6 @@
 # Editeur de texte Vim
 
-Lorsque vous vous connectez à un serveur, aucune interface graphique n'est présente, tout se fait en ligne de commande, lors de la configuration de ce serveur, par exemple, il est possible que vous soyez amené à éditer un fichier et c'est là que Vim vient à notre secours
+Lorsque vous vous connectez à un serveur, aucune interface graphique n'est présente, tout se fait en ligne de commande. Lors de la configuration de ce serveur, par exemple, il est possible que vous soyez amené à éditer un fichier et c'est là que Vim vient à la rescousse :laughing:
 <br>
 <br>
 Vim est un éditeur de texte en ligne de commande, sa puissance repose sur le fait qu'il propose énormement de raccourcis clavier permettant de se passer de la souris.
@@ -42,12 +42,12 @@ Lorsque vous cliquez sur les doubles points, ils apparaissent en bas à gauche d
 
 ## Les différentes façon de quitter l'éditeur
 
-Si vous n'avez pas effectué de changement sur le fichier, vous pouvez simplement utiliser `:q` qui permet de quitter le fichier simplement.
+- Si vous souhaitez quitter le fichier et que vous n'y avez pas apporté de modification, vous pouvez simplement utiliser le **double point** + **q** (`:q`)
 
-Si vous avez effectué des modifications, deux choix s'offrent à vous.
+- Si vous avez effectué des modifications, deux choix s'offrent à vous.
 
-- Décider de quitter le fichier sans enregistrer les modifications `:q!`, le `!` permet d'indiquer que l'on ne souhaite
-- Enregistrer les modifications, vous pouvez utiliser le `:x` ou `:wq` le `w` indique que vous sauvegardez le fichier et le `q` que vous le quittez respectez l'ordre on sauvegarde avant de quitter
+    - Vous quittez le fichier sans enregistrer les modifications alors vous allez utilisez le `:q!`, le `!` permet de forcer l'action, on sait qu'il y a des changements mais on ne souhaite pas les prendre en compte
+    - Vous quittez le fichier en enregistrant les modifications `:x` ou `:wq` le `w` indique que vous sauvegardez le fichier et le `q` que vous le quittez. :warning: Respectez l'ordre des paramètres on sauvegarde avant de quitter (le `w` avant le `q`)
 
 
 
