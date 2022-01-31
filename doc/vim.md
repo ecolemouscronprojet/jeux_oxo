@@ -58,7 +58,7 @@ Lorsque vous cliquez sur les doubles points, ils apparaissent en bas à gauche d
 Maintenant que l'on sait comment quitter un fichier, nous allons voir comment insérer des informations dans le fichier que l'on édite. 
 <br>
 <br>
-Il faut savoir que par défaut quand vous ouvez un fichier avec `vim` il est en mode **navigation** que nous allons voir plus bas et donc pour pouvoir ajouter des informations dans le fichier nous devons passer en mode **insertion** pour cela vous allez utilisez **i**  à ce moment là en bas à gauche vous devriez voir apparaître **-- INSERT --** ce qui signifie que vous pouvez ajouter des informations là où votre curseur se trouve
+Il faut savoir que par défaut quand vous ouvez un fichier avec `vim` il est en mode **navigation** (que nous allons voir plus bas) et donc pour pouvoir ajouter des informations dans le fichier nous devons passer en mode **insertion** pour cela vous allez utilisez **i**  à ce moment là en bas à gauche vous devriez voir apparaître **-- INSERT --** ce qui signifie que vous pouvez ajouter des informations là où votre curseur se trouve
 
 
 ![Mode insertion](images/vim_3.png)
