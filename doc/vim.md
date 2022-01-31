@@ -11,13 +11,13 @@ Ci-dessous ce que nous allons voir sont les bases pour bien démarrer avec Vim
 
 ## Comment ouvrir un fichier
 
-Pour ouvrir un fichier avec Vim rien de plus simple utilisez la commande `vim` suivi du nom du fichier à ouvrir 
+Pour ouvrir un fichier avec Vim rien de plus simple, utilisez la commande `vim` suivi du nom du fichier à ouvrir 
 
 ```shell
 ubuntu@ecole:~$  vim monFichier
 ```
 
-:information_desk_person: Si le fichier que vous souhaitez éditer n'existe pas, **Vim** va ouvrir un fichier vide et l'enregistrera sur le disque au moment de la sauvegarde
+:information_desk_person: Si le fichier que vous souhaitez ouvrir/éditer n'existe pas, **Vim** va ouvrir un fichier vide et l'enregistrera sur le disque au moment de la sauvegarde
 
 
 ![Open file](images/vim_1.png)
@@ -28,23 +28,29 @@ ubuntu@ecole:~$  vim monFichier
 
 ## Effectuer des actions dans Vim
 
-En utilisant un éditeur de texte, vous allez être amené à effectuer différentes actions: quitter, sauvegarder, rechercher …
+En utilisant un éditeur de texte, vous allez être amené à effectuer différentes actions telles que quitter, sauvegarder, rechercher etc…
 
-Pour indiquer à Vim que vous souhaitez effectuer une action, vous allez devoir utiliser le **double point** (:)
-
-
-![Open file](images/vim_2.png)
-
-Lorsque vous cliquez sur les doubles points, ils apparaissent en bas à gauche de l'écran, il ne reste plus qu'a préciser l'action que vous souhaitez éffectuer
+Pour indiquer à Vim que vous souhaitez effectuer une action, vous allez devoir utiliser le **double point** **:**
 
 
-## Les différentes façon de quitter un fichier
+![Action](images/vim_2.png)
 
-Quand on a  modifié le fichier on peut quitter le fichier de deux façons différentes
+Lorsque vous cliquez sur les doubles points, ils apparaissent en bas à gauche de l'écran, à ce moment là, il ne reste plus qu'a préciser l'action que vous souhaitez éffectuer
 
-### Quitter le fichier en enregistrant les modification
+:information_desk_person: Si vous vous êtes trompés et que vous ne souhaitez pas effectuer une action, utilisez la touche **escape**
 
-`:x` ou ``
+
+## Les différentes façon de quitter l'éditeur
+
+Si vous n'avez pas effectué de changement sur le fichier, vous pouvez simplement utiliser `:q` qui permet de quitter le fichier simplement.
+
+Si vous avez effectué des modifications, deux choix s'offrent à vous.
+
+- Décider de quitter le fichier sans enregistrer les modifications `:q!`, le `!` permet d'indiquer que l'on ne souhaite
+- Enregistrer les modifications, vous pouvez utiliser le `:x` ou `:wq` le `w` indique que vous sauvegardez le fichier et le `q` que vous le quittez respectez l'ordre on sauvegarde avant de quitter
+
+
+
 
 
 ## mode insertion
