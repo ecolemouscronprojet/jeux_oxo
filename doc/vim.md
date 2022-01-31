@@ -69,7 +69,7 @@ Pour naviguer dans votre fichier vous avez deux posibilités
 
 Soit, utilisez les fleches directionnelles
 
-![fleches directionnelles](images/vim_fleches.png)
+![fleches directionnelles](images/vim_fleches_directionnelles.png)
 
 
 Soit, utilisez les touches **H J K L**
