@@ -7,7 +7,7 @@ Vim est un éditeur de texte en ligne de commande, sa puissance repose sur le fa
 <br>
 <br>
 
-Ci-dessous ce que nous allons voir sont les bases pour bien démarrer avec Vim
+Ci-dessous, nous allons s'intéresser aux bases de cet éditeur pour avoir une meilleure prise en main
 
 ## Comment ouvrir un fichier
 
@@ -23,7 +23,7 @@ ubuntu@ecole:~$  vim monFichier
 ![Open file](images/vim_1.png)
 
 1. Indique le nom du fichier que l'on souhaite éditer
-2. Indique que nous sommes en mode lecture sur le fichier, on ne peut pas l'éditer dans l'état
+2. Indique que le fichier ne peut pas être édité, on ne peut que le consulter
 3. Indique la position de notre curseur
 
 ## Effectuer des actions dans Vim
@@ -53,9 +53,12 @@ Lorsque vous cliquez sur les doubles points, ils apparaissent en bas à gauche d
 
 
 
-## mode insertion
+## Mode insertion
+
+Maintenant que l'on sait comment quitter un fichier, nous allons apprendre comment insérer des informations dans le fichier que l'on édite. Il faut savoir que par défaut quand vous ouvez un fichier avec `vim` il est en mode **navigation** que nous allons voir plus bas et donc pour pouvoir ajouter des informations dans le fichier nous devons passer en mode **insertion** pour cela vous allez utilisez **i**  à ce moment là en bas à gauche vous devriez voir apparaître **-- INSERT --** ce qui signifie que vous pouvez ajouter des informations là où votre curseur se trouve
 
 
+![Mode insertion](images/vim_3.png)
 
 ## navigation
 
