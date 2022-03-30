@@ -22,11 +22,17 @@ A l'aide de Symfony 5, nous allons créer un jeu OXO, voici le mini cahier des c
 - …
 
 
+# Exercices Bash
+
+- [1. Convertir un texte en HEXA](doc/exercices/bash_hexa.md)
+
 # Cours
 
 - [Les commandes de base](doc/basic_commands.md)
 
 - [Editeur VIM](doc/vim.md)
+
+- [Nginx](doc/nginx.md)
 
 <!--
 

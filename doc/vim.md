@@ -67,22 +67,27 @@ Il faut savoir que par défaut quand vous ouvez un fichier avec `vim` il est en 
 
 Pour naviguer dans votre fichier vous avez deux posibilités
 
-Soit, utilisez les fleches directionnelles
+Soit utiliser les fleches directionnelles
 
 ![fleches directionnelles](images/vim_fleches_directionnelles.png)
 
 
-Soit, utilisez les touches **H J K L**
+Soit utiliser les touches **H J K L**
 
 
 ![touches H J K L](images/vim_touches_hjkl.png)
 
-- **H** : navigue à gauche
-- **J** : navigue vers le bas
-- **K** : navigue vers le haut
-- **L** : navigue à droite
+- **H** : naviguer à gauche
+- **J** : naviguer vers le bas
+- **K** : naviguer vers le haut
+- **L** : naviguer à droite
 
 ## rechercher
+
+Pour effectuer une recherche vous allez utiliser le slash **/** suivi du mot que vous souhaitez rechercher et pour valider votre recherche la touche **ENTER**
+
+
+:information_desk_person: Pour aller à l'occurence suivante, vous allez utiliser la touche **n**, si plus d'occurence vous allez avoir un message en bas à gauche de l'editeur pour vous prevenir.
 
 
 ## aller à une ligne
