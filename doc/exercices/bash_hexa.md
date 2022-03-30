@@ -18,6 +18,7 @@ Vous pouvez améliorer votre script en permettant la conversion de fichiers comp
 ## Aide
 
 Trouvez la commande qui permet ces conversions dans un premier temps, testez les dans le terminal avant de les intégrer dans un script
-faites étape par étape.
+
+Faites étape par étape.
 
 
