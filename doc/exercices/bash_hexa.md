@@ -5,7 +5,7 @@ Créez un script **bash** qui va permettre de convertir du **texte** en **hexa**
 
 ## Instructions
 
-Le script **bash** prendra en paramètre 2 arguments, le premier sera le texte à convertir et le second la conversion que vous allez faire **hexa vers texte** ou **texte vers hexa**
+Le script **bash** prendra en paramètre 2 arguments, le premier sera la donnée à convertir (texte/hexa) et le second la conversion que vous allez effectuer **hexa vers texte** ou **texte vers hexa**
 
 Dès que vous avez fini le script vous l'enverrez par email à l'adresse suivante: **samuel.lassoie@gmail.com**
 
