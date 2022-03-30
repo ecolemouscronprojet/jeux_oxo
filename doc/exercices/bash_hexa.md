@@ -12,7 +12,7 @@ Dès que vous avez fini le script, vous l'enverrez par email à l'adresse suivan
 
 ## Plus
 
-Vous pouvez améliorer votre script en permettant la conversion de fichier également.
+Vous pouvez améliorer votre script en permettant la conversion de fichiers complets.
 
 
 ## Aide
